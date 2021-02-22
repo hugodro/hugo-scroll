@@ -34,7 +34,7 @@ var $sitehead = $("#site-head");
 
     $postafter.each(function (e) {
       var bg = $(this).parent().css("background-color");
-      $(this).css("border-top-color", bg);
+      // $(this).css("border-top-color", bg);
 
       if (e % 2 == 0) {
         $(this).addClass("even");
